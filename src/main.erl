@@ -13,6 +13,7 @@
 -import(problem3,[element_at/2]).
 -import(problem4,[my_length/1]).
 -import(problem5,[reverse/1]).
+-import(problem6,[palindrome/1]).
 
 %% API
 -export([start/0]).
@@ -34,4 +35,12 @@ start() ->
   %%Problem 5
   DummyString = "I love popcorn.",
   io:format("problem5-> DummyString: ~p, problem5:reverse(DummyString)->~p~n", [DummyString, problem5:reverse(DummyString)]),
-  io:format("problem5-> OrderedList: ~p, problem5:reverse(OrderedList)->~p~n", [OrderedList, problem5:reverse(OrderedList)]).
+  io:format("problem5-> OrderedList: ~p, problem5:reverse(OrderedList)->~p~n", [OrderedList, problem5:reverse(OrderedList)]),
+  %%Problem 6
+  PalindromeList = "abbba",
+  NonPalindromeList = "12354321",
+  io:format("problem6-> NonPalindromeList: ~p, problem6:palindrome(NonPalindromeList)->~p~n", [NonPalindromeList, problem6:palindrome(NonPalindromeList)]),
+  io:format("problem6-> PalindromList: ~p, problem6:palindrome(PalindromList)->~p~n", [PalindromeList, problem6:palindrome(PalindromeList)]),
+  %%Problem 7
+  DeepList = [1,2,[3,[4,5,6,[7,8,9]]]],
+  io:format("problem7-> DeepList: ~p, problem7:flatten(DeepList)->~p~n", [DeepList, problem7:flatten(DeepList)]).
