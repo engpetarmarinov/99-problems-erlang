@@ -3,7 +3,7 @@
 %%% @copyright (C) 2019, <COMPANY>
 %%% @doc
 %%% Find the K'th element of a list. The first element in the list is number 1.
-%%% Example: elementAt [1,2,3] 2 -> 2
+%%% Example: element_at [1,2,3] 2 -> 2
 %%% @end
 %%% Created : 18. Jun 2019 15:25
 %%%-------------------------------------------------------------------

@@ -11,6 +11,8 @@
 -import(problem1,[last/1]).
 -import(problem2,[last_but_last/1]).
 -import(problem3,[element_at/2]).
+-import(problem4,[my_length/1]).
+-import(problem5,[reverse/1]).
 
 %% API
 -export([start/0]).
@@ -23,5 +25,13 @@ start() ->
   io:format("problem2-> List: ~p, problem2:last_but_last(List)->~p~n", [List, problem2:last_but_last(List)]),
   %%Problem 3
   OrderedList = [1,2,3,4,5,6,7,8,9],
-  io:format("problem3-> OrderedList: ~p, ~p, problem3:last_but_last(List)->~p~n", [OrderedList, 4, problem3:element_at(OrderedList,4)]),
-  io:format("problem3-> OrderedList: ~p, ~p, problem3:last_but_last(List)->~p~n", [OrderedList, 11, problem3:element_at(OrderedList,11)]).
+  io:format("problem3-> OrderedList: ~p, ~p, problem3:last_but_last(OrderedList)->~p~n", [OrderedList, 4, problem3:element_at(OrderedList,4)]),
+  io:format("problem3-> OrderedList: ~p, ~p, problem3:last_but_last(OrderedList)->~p~n", [OrderedList, 11, problem3:element_at(OrderedList,11)]),
+  %%Problem 4
+  io:format("problem4-> OrderedList: [], problem4:my_length([])->~p~n", [problem4:my_length([])]),
+  io:format("problem4-> OrderedList: [1], problem4:my_length([1])->~p~n", [problem4:my_length([1])]),
+  io:format("problem4-> OrderedList: ~p, problem4:my_length(OrderedList)->~p~n", [OrderedList, problem4:my_length(OrderedList)]),
+  %%Problem 5
+  DummyString = "I love popcorn.",
+  io:format("problem5-> DummyString: ~p, problem5:reverse(DummyString)->~p~n", [DummyString, problem5:reverse(DummyString)]),
+  io:format("problem5-> OrderedList: ~p, problem5:reverse(OrderedList)->~p~n", [OrderedList, problem5:reverse(OrderedList)]).
