@@ -12,6 +12,6 @@
 %% API
 -export([sort/1]).
 
-
 sort(List) ->
-  erlang:error(not_implemented).
+  %%TODO: implement merge sort
+  lists:sort(List).
