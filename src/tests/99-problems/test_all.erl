@@ -6,7 +6,7 @@
 %%% @end
 %%% Created : 18. Jun 2019 15:31
 %%%-------------------------------------------------------------------
--module(main).
+-module(test_all).
 -author("petarmarinov").
 -import(problem1,[last/1]).
 -import(problem2,[last_but_last/1]).
@@ -16,9 +16,9 @@
 -import(problem6,[palindrome/1]).
 
 %% API
--export([start/0]).
+-export([test/0]).
 
-start() ->
+test() ->
   %%Problem 1
   List = [213,21321,64,21321,3213,2],
   io:format("problem1-> List: ~p, problem1:last(List)->~p~n", [List, problem1:last(List)]),

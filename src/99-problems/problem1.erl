@@ -13,6 +13,8 @@
 %% API
 -export([last/1]).
 
+last([]) ->
+  nil;
 last([First|Rest]) when Rest == [] ->
   First;
 last([_|Rest]) ->
