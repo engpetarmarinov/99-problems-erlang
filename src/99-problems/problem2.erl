@@ -13,6 +13,8 @@
 %% API
 -export([last_but_last/1]).
 
+last_but_last([_]) ->
+  nil;
 last_but_last([First|[_]]) ->
   First;
 last_but_last([_|Rest]) ->

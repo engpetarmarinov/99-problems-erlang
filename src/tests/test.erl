@@ -9,8 +9,8 @@
 -module(test).
 -author("knikolov").
 
--define(EXT, "tests.erl"). % file extension to look for
--define(TESTS_DIR, "./src/tests/99-problems").
+-define(EXT, "tests.beam"). % file extension to look for
+-define(TESTS_DIR, "./out/test/99-problems-erlang").
 
 %% API
 -export([start/0]).
@@ -19,8 +19,8 @@ start() ->
   dir(?TESTS_DIR).
 dir(TestsPath) ->
   FilesList = module_list(TestsPath),
-  [compile(X) || X <- FilesList],
   Tokens = tokens(FilesList),
+  [load(T) || T <- Tokens],
   test_all(Tokens),
   ok.
 
@@ -31,7 +31,7 @@ test_all(Tokens) ->
   io:format("End All~n").
 
 test_single({F, T}) ->
-  io:format(" > ~p, Module: ~p~n", [F, T]),
+  io:format(" > Module: ~p, ~p~n", [T, F]),
   (list_to_existing_atom(T)):test().
 
 tokens(FilesList) ->
@@ -62,5 +62,8 @@ loop(Path, [Content|PathContents], Files) ->
 get_ext(Str) ->
   lists:reverse(string:sub_string(lists:reverse(Str), 1, length(?EXT))).
 
-compile(FileName) ->
-  compile:file(FileName, [report, verbose, export_all]).
+get_file_path_without_ext(Path) ->
+  lists:reverse(string:sub_string(lists:reverse(Path), length(".beam") + 1, length(Path))).
+
+load({Path, _}) ->
+  code:load_abs(get_file_path_without_ext(Path)).

@@ -13,10 +13,14 @@
 %% API
 -export([element_at/2]).
 
+element_at([], _) ->
+  nil;
 element_at([First|_], 1) ->
   First;
+element_at(_, N) when N =< 0 ->
+  nil;
 element_at([_|Tail], N) ->
   case length(Tail) < N of
-    true -> undefined;
+    true -> nil;
     false -> element_at(Tail, N-1)
   end.
