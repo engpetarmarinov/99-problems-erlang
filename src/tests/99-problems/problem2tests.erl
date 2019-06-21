@@ -3,9 +3,8 @@
 -author("petarmarinov").
 
 find_last_but_last_test() ->
-  List = [213,21321,64,21321,3213,2],
-  ?assert(problem2:last_but_last(List) =:= 3213).
+  ?assertEqual(3213, problem2:last_but_last([213,21321,64,21321,3213,2])).
 
 find_last_but_last_when_only_one_test() ->
   List = [2],
-  ?assert(problem2:last_but_last(List) =:= nil).
+  ?assertEqual(nil, problem2:last_but_last(List)).
