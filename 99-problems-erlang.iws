@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/99-problems/problem9.erl" />
+    <bookmark url="file://$PROJECT_DIR$/src/99-problems/problem9.erl" line="33" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7d1ddae6-fe95-4b13-beef-c2e778b6f860" name="Default" comment="Add unit tests with eunit">
-      <change beforePath="$PROJECT_DIR$/99-problems-erlang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/99-problems-erlang.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/99-problems-erlang.iws" beforeDir="false" afterPath="$PROJECT_DIR$/99-problems-erlang.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/merge.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/merge.erl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/sort/sort.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/99-problems-erlang.ipr" afterPath="$PROJECT_DIR$/99-problems-erlang.ipr" />
+      <change beforePath="$PROJECT_DIR$/99-problems-erlang.iws" afterPath="$PROJECT_DIR$/99-problems-erlang.iws" />
+      <change beforePath="$PROJECT_DIR$/src/tests/99-problems/problem3tests.erl" afterPath="$PROJECT_DIR$/src/tests/99-problems/problem3tests.erl" />
+      <change beforePath="$PROJECT_DIR$/src/tests/99-problems/problem4tests.erl" afterPath="$PROJECT_DIR$/src/tests/99-problems/problem4tests.erl" />
+      <change beforePath="$PROJECT_DIR$/src/tests/99-problems/problem5tests.erl" afterPath="$PROJECT_DIR$/src/tests/99-problems/problem5tests.erl" />
+      <change beforePath="$PROJECT_DIR$/src/tests/99-problems/problem7tests.erl" afterPath="$PROJECT_DIR$/src/tests/99-problems/problem7tests.erl" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,31 +28,107 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../.." userTempatePath="" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sort/merge.erl">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
+      <file leaf-file-name="problem9.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/99-problems/problem9.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <marker date="1561124403041" expanded="true" signature="587:768" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem9tests.erl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem9tests.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem7.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/99-problems/problem7.erl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/sort/mergetests.erl">
+      <file leaf-file-name="problem7tests.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem7tests.erl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem1tests.erl">
+      <file leaf-file-name="problem6tests.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem6tests.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem5tests.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem5tests.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem4tests.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem4tests.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem3tests.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem3tests.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem8.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/99-problems/problem8.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem8tests.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem8tests.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,10 +146,16 @@
     <findStrings>
       <find>compile</find>
       <find>token</find>
+      <find>&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,19 +170,23 @@
         <option value="$PROJECT_DIR$/src/sort/sort.erl" />
         <option value="$PROJECT_DIR$/src/tests/99-problems/main.erl" />
         <option value="$PROJECT_DIR$/src/99-problems/problem1.erl" />
-        <option value="$PROJECT_DIR$/src/tests/test.erl" />
         <option value="$PROJECT_DIR$/src/tests/99-problems/problem1tests.erl" />
         <option value="$PROJECT_DIR$/src/tests/99-problems/problem2tests.erl" />
         <option value="$PROJECT_DIR$/src/99-problems/problem2.erl" />
         <option value="$PROJECT_DIR$/src/99-problems/problem3.erl" />
-        <option value="$PROJECT_DIR$/src/tests/99-problems/problem3tests.erl" />
-        <option value="$PROJECT_DIR$/src/tests/99-problems/problem4tests.erl" />
-        <option value="$PROJECT_DIR$/src/tests/99-problems/problem5tests.erl" />
         <option value="$PROJECT_DIR$/src/tests/99-problems/test_all.erl" />
         <option value="$PROJECT_DIR$/src/tests/99-problems/problem6tests.erl" />
-        <option value="$PROJECT_DIR$/src/tests/99-problems/problem7tests.erl" />
         <option value="$PROJECT_DIR$/src/tests/sort/mergetests.erl" />
         <option value="$PROJECT_DIR$/src/sort/merge.erl" />
+        <option value="$PROJECT_DIR$/src/99-problems/problem8.erl" />
+        <option value="$PROJECT_DIR$/src/tests/test.erl" />
+        <option value="$PROJECT_DIR$/src/99-problems/problem9.erl" />
+        <option value="$PROJECT_DIR$/src/tests/99-problems/problem7tests.erl" />
+        <option value="$PROJECT_DIR$/src/tests/99-problems/problem5tests.erl" />
+        <option value="$PROJECT_DIR$/src/tests/99-problems/problem4tests.erl" />
+        <option value="$PROJECT_DIR$/src/tests/99-problems/problem3tests.erl" />
+        <option value="$PROJECT_DIR$/src/tests/99-problems/problem8tests.erl" />
+        <option value="$PROJECT_DIR$/src/tests/99-problems/problem9tests.erl" />
       </list>
     </option>
   </component>
@@ -107,11 +200,24 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
       <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,13 +228,18 @@
             <path>
               <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
               <item name="99-problems-erlang" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="99-problems-erlang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
               <item name="99-problems-erlang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="99-problems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
@@ -145,17 +256,12 @@
             </path>
             <path>
               <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="99-problems-erlang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,6 +273,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\devwork\Erlang\99-problems-erlang\src\tests\99-problems" />
+      <recent name="C:\devwork\Erlang\99-problems-erlang\src\99-problems" />
       <recent name="C:\Projects\99-problems-erlang\src\tests\99-problems" />
       <recent name="C:\devwork\Erlang\99-problems-erlang\src\tests" />
       <recent name="C:\devwork\Erlang\99-problems-erlang\src" />
@@ -184,25 +292,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="Applet">
+  <component name="RunManager" selected="Erlang Eunit.Run All Tests">
+    <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
+      <option name="WIDTH" value="0" />
+      <option name="HEIGHT" value="0" />
+      <module />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="99-problems" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="99-problems-erlang" />
-      <option name="allowRunningInParallel" value="false" />
       <option name="debugOptions">
         <ErlangDebugOptions>
-          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="autoUpdateModulesNotToInterpret" value="false" />
           <option name="modulesNotToInterpret">
             <set />
           </option>
@@ -213,13 +333,11 @@
       <option name="params" value="" />
       <option name="useTestCodePath" value="false" />
       <option name="workDirectory" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <module name="99-problems-erlang">
+        <option name="moduleName" value="99-problems-erlang" />
+      </module>
     </configuration>
     <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="99-problems-erlang" />
-      <option name="allowRunningInParallel" value="false" />
       <option name="debugOptions">
         <ErlangDebugOptions>
           <option name="autoUpdateModulesNotToInterpret" value="true" />
@@ -233,35 +351,238 @@
       <option name="params" value="" />
       <option name="useTestCodePath" value="false" />
       <option name="workDirectory" value="" />
-      <method v="2">
+      <module name="99-problems-erlang">
+        <option name="moduleName" value="99-problems-erlang" />
+      </module>
+      <method>
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Run All Tests" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module name="99-problems-erlang">
+        <option name="moduleName" value="99-problems-erlang" />
+      </module>
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set>
+          <option value="problem1tests" />
+          <option value="problem2tests" />
+          <option value="problem3tests" />
+          <option value="problem4tests" />
+          <option value="problem5tests" />
+          <option value="problem6tests" />
+          <option value="problem7tests" />
+          <option value="problem8tests" />
+          <option value="problem9tests" />
+        </set>
+      </option>
+    </configuration>
+    <configuration name="problem8tests" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module name="99-problems-erlang">
+        <option name="moduleName" value="99-problems-erlang" />
+      </module>
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set>
+          <option value="problem8tests" />
+        </set>
+      </option>
+    </configuration>
+    <configuration name="problem8tests:compress_list_test" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module name="99-problems-erlang">
+        <option name="moduleName" value="99-problems-erlang" />
+      </module>
+      <option name="functionNames">
+        <set>
+          <option value="problem8tests:compress_list_test" />
+        </set>
+      </option>
+      <option name="kind" value="FUNCTION" />
+      <option name="moduleNames">
+        <set>
+          <option value="problem1tests" />
+          <option value="problem2tests" />
+          <option value="problem3tests" />
+          <option value="problem4tests" />
+          <option value="problem5tests" />
+          <option value="problem6tests" />
+          <option value="problem7tests" />
+          <option value="problem8tests" />
+          <option value="problem9tests" />
+        </set>
+      </option>
+    </configuration>
+    <configuration name="problem8tests:compress_string_test" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module name="99-problems-erlang">
+        <option name="moduleName" value="99-problems-erlang" />
+      </module>
+      <option name="functionNames">
+        <set>
+          <option value="problem8tests:compress_string_test" />
+        </set>
+      </option>
+      <option name="kind" value="FUNCTION" />
+      <option name="moduleNames">
+        <set>
+          <option value="problem1tests" />
+          <option value="problem2tests" />
+          <option value="problem3tests" />
+          <option value="problem4tests" />
+          <option value="problem5tests" />
+          <option value="problem6tests" />
+          <option value="problem7tests" />
+          <option value="problem8tests" />
+          <option value="problem9tests" />
+        </set>
+      </option>
+    </configuration>
+    <configuration name="problem9tests" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module name="99-problems-erlang">
+        <option name="moduleName" value="99-problems-erlang" />
+      </module>
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set>
+          <option value="problem9tests" />
+        </set>
+      </option>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Erlang Application.99-problems" />
+      <item index="1" class="java.lang.String" itemvalue="Erlang Eunit.Run All Tests" />
+      <item index="2" class="java.lang.String" itemvalue="Erlang Eunit.problem8tests:compress_string_test" />
+      <item index="3" class="java.lang.String" itemvalue="Erlang Eunit.problem8tests:compress_list_test" />
+      <item index="4" class="java.lang.String" itemvalue="Erlang Eunit.problem8tests" />
+      <item index="5" class="java.lang.String" itemvalue="Erlang Eunit.problem9tests" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Erlang Eunit.Run All Tests" />
+        <item index="1" class="java.lang.String" itemvalue="Erlang Eunit.problem9tests" />
+        <item index="2" class="java.lang.String" itemvalue="Erlang Eunit.problem8tests" />
+        <item index="3" class="java.lang.String" itemvalue="Erlang Eunit.problem8tests:compress_list_test" />
+        <item index="4" class="java.lang.String" itemvalue="Erlang Eunit.problem8tests:compress_string_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -284,6 +605,38 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Run_All_Tests - 2019.06.21 at 15h 08m 36s.xml">
+      <configuration name="Run All Tests" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_All_Tests - 2019.06.21 at 15h 08m 41s.xml">
+      <configuration name="Run All Tests" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="problem1tests_and_8_more - 2019.06.21 at 15h 01m 53s.xml">
+      <configuration name="problem1tests and 8 more" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="problem1tests_and_8_more - 2019.06.21 at 15h 06m 24s.xml">
+      <configuration name="problem1tests and 8 more" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="problem1tests_and_8_more - 2019.06.21 at 15h 06m 45s.xml">
+      <configuration name="problem1tests and 8 more" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="problem1tests_and_8_more - 2019.06.21 at 15h 07m 40s.xml">
+      <configuration name="problem1tests and 8 more" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="problem8tests - 2019.06.21 at 14h 59m 12s.xml">
+      <configuration name="problem8tests" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="problem8tests - 2019.06.21 at 14h 59m 55s.xml">
+      <configuration name="problem8tests" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="problem8tests_compress_list_test - 2019.06.21 at 14h 58m 44s.xml">
+      <configuration name="problem8tests:compress_list_test" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="problem9tests - 2019.06.21 at 15h 01m 21s.xml">
+      <configuration name="problem9tests" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -294,36 +647,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.15138593" />
-      <window_info id="Structure" order="5" weight="0.25" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.3217768" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49840087" weight="0.32827735" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4978678" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4989339" weight="0.32827735" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4978678" visible="true" weight="0.3217768" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49946696" weight="0.3531961" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884616" sideWeight="0.49946696" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.49010417" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35288462" sideWeight="0.50852877" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4923077" sideWeight="0.4875" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884616" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278846" sideWeight="0.4989339" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15458423" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35288462" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,6 +705,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add unit tests with eunit" />
     <option name="LAST_COMMIT_MESSAGE" value="Add unit tests with eunit" />
@@ -360,13 +716,63 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ErlangLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/sort/merge.erl</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/src/99-problems/problem9.erl</url>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ErlangLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/99-problems/problem9.erl</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ErlangLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/99-problems/problem9.erl</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ErlangLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/99-problems/problem9.erl</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ErlangLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/99-problems/problem9.erl</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ErlangLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/99-problems/problem8.erl</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ErlangLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/99-problems/problem8.erl</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ErlangLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/99-problems/problem8.erl</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ErlangLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/99-problems/problem8.erl</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -388,69 +794,36 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sort/merge.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Program Files/erl7.3/lib/erts-7.3/src/erlang.erl" />
-    <entry file="file://$PROJECT_DIR$/src/problem1.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem2.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem3.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem4.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem1.erl" />
+    <entry file="file://$PROJECT_DIR$/src/problem2.erl" />
+    <entry file="file://$PROJECT_DIR$/src/problem3.erl" />
+    <entry file="file://$PROJECT_DIR$/src/problem4.erl" />
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="68">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-            <folding />
+            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/problem5.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem5.erl" />
+    <entry file="file://$PROJECT_DIR$/src/main.erl" />
     <entry file="file://$PROJECT_DIR$/src/sort/sort.erl" />
     <entry file="file://$PROJECT_DIR$/out/production/99-problems-erlang/sort.beam" />
     <entry file="file://$PROJECT_DIR$/src/tests/99-problems/main.erl" />
@@ -462,10 +835,6 @@
       </provider>
     </entry>
     <entry file="file://C:/Program Files/erl7.3/lib/eunit-2.2.13/include/eunit.hrl" />
-    <entry file="file://C:/Program Files/erl7.3/lib/eunit-2.2.13/examples/fib.erl" />
-    <entry file="file://$PROJECT_DIR$/99-problems-erlang.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/99-problems/problem1.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -473,122 +842,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/erl10.4/lib/eunit-2.3.7/include/eunit.hrl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="134" column="36" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/erl10.4/lib/stdlib-3.9/include/assert.hrl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/erl10.4/lib/eunit-2.3.7/include/eunit.hrl" />
+    <entry file="file://C:/Program Files/erl10.4/lib/stdlib-3.9/include/assert.hrl" />
     <entry file="file://$PROJECT_DIR$/src/99-problems/problem2.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem2tests.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/99-problems/problem3.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem3tests.erl">
+    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/test_all.erl" />
+    <entry file="file://$PROJECT_DIR$/src/tests/sort/sort.erl" />
+    <entry file="file://$PROJECT_DIR$/src/tests/sort/mergetests.erl" />
+    <entry file="file://$PROJECT_DIR$/src/sort/merge.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem4tests.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem5tests.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem6tests.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/test_all.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/99-problems/problem7.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem7tests.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/sort/sort.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="97" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/test.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem1tests.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/sort/mergetests.erl">
+    <entry file="file://C:/Program Files/erl7.3/lib/eunit-2.2.13/src/eunit.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="713">
+          <caret line="255" column="20" lean-forward="false" selection-start-line="255" selection-start-column="20" selection-end-line="255" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/merge.erl">
+    <entry file="file://C:/Program Files/erl7.3/lib/eunit-2.2.13/examples/tests.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/erl7.3/lib/eunit-2.2.13/examples/fib.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1039">
+          <caret line="68" column="12" lean-forward="false" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/erl7.3/lib/stdlib-2.8/include/assert.hrl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="149" column="22" lean-forward="false" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/99-problems/problem8.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/99-problems/problem7.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem7tests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem6tests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem5tests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem4tests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem3tests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/99-problems/problem9.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1561124403041" expanded="true" signature="587:768" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem8tests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem9tests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

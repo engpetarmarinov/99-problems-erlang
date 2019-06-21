@@ -3,10 +3,10 @@
 -author("petarmarinov").
 
 length_empty_list_test() ->
-  ?assert(problem4:my_length([]) =:= 0).
+  ?assertEqual(0, problem4:my_length([])).
 
 length_string_test() ->
-  ?assert(problem4:my_length("abcdefg") =:= 7).
+  ?assertEqual(7, problem4:my_length("abcdefg")).
 
 length_list_test() ->
-  ?assert(problem4:my_length([1]) =:= 1).
+  ?assertEqual(1, problem4:my_length([1])).
