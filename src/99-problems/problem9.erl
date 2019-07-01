@@ -20,14 +20,18 @@
 %%  Res =:= [[1,1,1],[2,2,2],[3,3],[4,4],[5],[6],[7],[8,8],[9],[2,2,2]].
 
 pack(List)->
-  pack(List, []).
+  pack(List, [], []).
 
-pack([], Res) ->
+%% Empty List
+pack([], _, Res) ->
   lists:reverse(Res);
-pack([H | T], []) ->
 
-  pack(T, [[H] | []]);
-pack([H | T], [[RH | RHRest ] | TRes]) when H =:= RH -> % add to the existing sublist
-  pack(T, [[[H | [RH | RHRest]] | TRes]]);
-pack([H | T], [[RH | RHRest ] | TRes]) when H =/= RH -> % add a new sublist to the result
-  pack(T, [[H] | [[RH | RHRest] | TRes]]).
+%% Empty Last and Result
+pack([H | T], [], []) ->
+  pack(T, H, [[H] | []]);
+
+pack([H | T], Last, [RH | RT ]) when Last =/= H ->
+  pack(T, H, [[H] | [RH | RT ]]);
+
+pack([H | T], Last, [RH | RT ]) when Last =:= H ->
+  pack(T, H, [[H | RH] | RT]).
