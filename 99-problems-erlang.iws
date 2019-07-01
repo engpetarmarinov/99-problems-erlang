@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d1ddae6-fe95-4b13-beef-c2e778b6f860" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/99-problems-erlang.ipr" afterPath="$PROJECT_DIR$/99-problems-erlang.ipr" />
       <change beforePath="$PROJECT_DIR$/99-problems-erlang.iws" afterPath="$PROJECT_DIR$/99-problems-erlang.iws" />
+      <change beforePath="$PROJECT_DIR$/src/sort/merge.erl" afterPath="$PROJECT_DIR$/src/sort/merge.erl" />
+      <change beforePath="$PROJECT_DIR$/src/tests/sort/mergetests.erl" afterPath="$PROJECT_DIR$/src/tests/sort/mergetests.erl" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +24,11 @@
   <component name="ExportTestResults" outputFolder="C:" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="merge.erl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="merge.erl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sort/merge.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="problem9tests.erl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem9tests.erl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="132" />
+            <state relative-caret-position="238">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -44,28 +37,8 @@
       <file leaf-file-name="mergetests.erl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/sort/mergetests.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="problem9.erl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/99-problems/problem9.erl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="99-problems-erlang.iws" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/99-problems-erlang.iws">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/99-problems/problem3.erl" />
         <option value="$PROJECT_DIR$/src/tests/99-problems/test_all.erl" />
         <option value="$PROJECT_DIR$/src/tests/99-problems/problem6tests.erl" />
-        <option value="$PROJECT_DIR$/src/sort/merge.erl" />
         <option value="$PROJECT_DIR$/src/99-problems/problem8.erl" />
         <option value="$PROJECT_DIR$/src/tests/test.erl" />
         <option value="$PROJECT_DIR$/src/tests/99-problems/problem7tests.erl" />
@@ -125,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/tests/99-problems/problem1tests.erl" />
         <option value="$PROJECT_DIR$/src/99-problems/problem9.erl" />
         <option value="$PROJECT_DIR$/src/tests/99-problems/problem9tests.erl" />
+        <option value="$PROJECT_DIR$/src/sort/merge.erl" />
         <option value="$PROJECT_DIR$/src/tests/sort/mergetests.erl" />
       </list>
     </option>
@@ -320,6 +293,7 @@
       <option name="kind" value="MODULE" />
       <option name="moduleNames">
         <set>
+          <option value="mergetests" />
           <option value="problem1tests" />
           <option value="problem2tests" />
           <option value="problem3tests" />
@@ -457,39 +431,46 @@
       <option name="project" value="LOCAL" />
       <updated>1561977100608</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="problem9 solved">
+      <created>1561977113875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561977113875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_All_Tests - 2019.07.01 at 08h 36m 59s.xml">
+    <history-entry file="Run_All_Tests - 2019.07.01 at 14h 57m 08s.xml">
       <configuration name="Run All Tests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_All_Tests - 2019.07.01 at 10h 04m 44s.xml">
+    <history-entry file="Run_All_Tests - 2019.07.01 at 14h 57m 32s.xml">
       <configuration name="Run All Tests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_All_Tests - 2019.07.01 at 10h 11m 26s.xml">
-      <configuration name="Run All Tests" configurationId="ErlangUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="mergetests - 2019.07.01 at 10h 15m 00s.xml">
+    <history-entry file="mergetests - 2019.07.01 at 14h 53m 20s.xml">
       <configuration name="mergetests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="problem9tests - 2019.07.01 at 08h 36m 50s.xml">
-      <configuration name="problem9tests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="mergetests - 2019.07.01 at 14h 56m 18s.xml">
+      <configuration name="mergetests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="problem9tests - 2019.07.01 at 08h 37m 23s.xml">
-      <configuration name="problem9tests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="mergetests - 2019.07.01 at 14h 56m 43s.xml">
+      <configuration name="mergetests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="problem9tests - 2019.07.01 at 08h 37m 26s.xml">
-      <configuration name="problem9tests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="mergetests - 2019.07.01 at 15h 01m 32s.xml">
+      <configuration name="mergetests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="problem9tests - 2019.07.01 at 10h 00m 05s.xml">
-      <configuration name="problem9tests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="mergetests - 2019.07.01 at 15h 01m 50s.xml">
+      <configuration name="mergetests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="problem9tests - 2019.07.01 at 10h 03m 14s.xml">
-      <configuration name="problem9tests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="mergetests - 2019.07.01 at 15h 02m 23s.xml">
+      <configuration name="mergetests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="problem9tests - 2019.07.01 at 10h 04m 38s.xml">
-      <configuration name="problem9tests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="mergetests - 2019.07.01 at 15h 04m 12s.xml">
+      <configuration name="mergetests" configurationId="ErlangUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="mergetests - 2019.07.01 at 15h 06m 06s.xml">
+      <configuration name="mergetests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -510,7 +491,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35288462" sideWeight="0.50852877" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35288462" sideWeight="0.510661" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49134615" sideWeight="0.4875" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884616" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
@@ -522,7 +503,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35288462" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35288462" sideWeight="0.48933902" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -601,6 +582,7 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -813,18 +795,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/merge.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/99-problems-erlang.ipr">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/99-problems-erlang.iws">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/99-problems/problem9.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -839,24 +829,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/sort/mergetests.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/99-problems/problem9.erl">
+    <entry file="file://$PROJECT_DIR$/src/sort/merge.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/99-problems-erlang.iws">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
