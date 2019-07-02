@@ -2,7 +2,7 @@
 %%% @author petarmarinov
 %%% @copyright (C) 2019, <COMPANY>
 %%% @doc
-%%%
+%%% Merge Sort
 %%% @end
 %%% Created : 20. Jun 2019 15:24
 %%%-------------------------------------------------------------------
