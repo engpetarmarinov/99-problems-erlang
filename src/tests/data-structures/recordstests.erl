@@ -12,7 +12,7 @@ records_test() ->
       undefined,
       ["Moved by a small man inside"]
     },
-    records:first_robot()).
+  records:first_robot()).
 
 record_robot_property_dot_syntax_test() ->
   Robot = records:first_robot(),

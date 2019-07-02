@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d1ddae6-fe95-4b13-beef-c2e778b6f860" name="Default" comment="Add unit tests with eunit">
+    <list default="true" id="7d1ddae6-fe95-4b13-beef-c2e778b6f860" name="Default" comment="Records example">
       <change beforePath="$PROJECT_DIR$/99-problems-erlang.iws" afterPath="$PROJECT_DIR$/99-problems-erlang.iws" />
+      <change beforePath="$PROJECT_DIR$/src/tests/data-structures/recordstests.erl" afterPath="$PROJECT_DIR$/src/tests/data-structures/recordstests.erl" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,31 +22,31 @@
   <component name="ExportTestResults" outputFolder="C:" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="merge.erl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/merge.erl">
+      <file leaf-file-name="records.hrl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data-structures/records.hrl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="34">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insertiontests.erl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/sort/insertiontests.erl">
+      <file leaf-file-name="records.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data-structures/records.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insertion.erl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sort/insertion.erl">
+      <file leaf-file-name="recordstests.erl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/data-structures/recordstests.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -66,6 +67,7 @@
       <find>token</find>
       <find>&gt;</find>
       <find>problem9</find>
+      <find>load</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,6 +112,9 @@
         <option value="$PROJECT_DIR$/src/99-problems/problem10.erl" />
         <option value="$PROJECT_DIR$/src/tests/sort/insertiontests.erl" />
         <option value="$PROJECT_DIR$/src/sort/insertion.erl" />
+        <option value="$PROJECT_DIR$/src/data-structures/records.hrl" />
+        <option value="$PROJECT_DIR$/src/data-structures/records.erl" />
+        <option value="$PROJECT_DIR$/src/tests/data-structures/recordstests.erl" />
       </list>
     </option>
   </component>
@@ -156,7 +161,7 @@
               <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
               <item name="99-problems-erlang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="99-problems" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
@@ -175,7 +180,7 @@
               <item name="99-problems-erlang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="99-problems" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
@@ -183,6 +188,51 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Erlang 18 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Erlang 18 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Erlang 18 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="eunit-2.2.13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Erlang 18 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="eunit-2.2.13" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Erlang 18 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="stdlib-2.8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="99-problems-erlang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Erlang 18 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="stdlib-2.8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,10 +243,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests/99-problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gam-git/knikolov/erlang/homework" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SearchEverywhereHistoryKey" value="records&#9;FILE&#9;file://C:/Program Files/erl7.3/lib/stdlib-2.8/src/erl_expand_records.erl" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -219,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Erlang Eunit.Run All Tests">
+  <component name="RunManager" selected="Erlang Eunit.recordstests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -319,6 +370,29 @@
         </set>
       </option>
     </configuration>
+    <configuration name="recordstests" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module name="99-problems-erlang">
+        <option name="moduleName" value="99-problems-erlang" />
+      </module>
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set>
+          <option value="recordstests" />
+        </set>
+      </option>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -381,13 +455,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Erlang Application.99-problems" />
       <item index="1" class="java.lang.String" itemvalue="Erlang Eunit.Run All Tests" />
+      <item index="2" class="java.lang.String" itemvalue="Erlang Eunit.recordstests" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Erlang Eunit.Run All Tests" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Erlang Eunit.recordstests" />
+        <item index="1" class="java.lang.String" itemvalue="Erlang Eunit.Run All Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +509,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562052273776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add insertion sort tests to the Run All configuration">
+      <created>1562052401629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562052401629</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Records example">
+      <created>1562064455775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562064455775</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -446,26 +536,26 @@
     <history-entry file="Run_All_Tests - 2019.07.02 at 08h 25m 57s.xml">
       <configuration name="Run All Tests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="insertiontests - 2019.07.02 at 08h 14m 43s.xml">
-      <configuration name="insertiontests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="recordstests - 2019.07.02 at 08h 55m 55s.xml">
+      <configuration name="recordstests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="insertiontests - 2019.07.02 at 08h 18m 50s.xml">
-      <configuration name="insertiontests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="recordstests - 2019.07.02 at 08h 57m 05s.xml">
+      <configuration name="recordstests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="insertiontests - 2019.07.02 at 08h 18m 54s.xml">
-      <configuration name="insertiontests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="recordstests - 2019.07.02 at 11h 44m 59s.xml">
+      <configuration name="recordstests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="insertiontests - 2019.07.02 at 08h 20m 35s.xml">
-      <configuration name="insertiontests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="recordstests - 2019.07.02 at 11h 45m 18s.xml">
+      <configuration name="recordstests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="insertiontests - 2019.07.02 at 08h 21m 07s.xml">
-      <configuration name="insertiontests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="recordstests - 2019.07.02 at 11h 46m 09s.xml">
+      <configuration name="recordstests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="insertiontests - 2019.07.02 at 08h 21m 40s.xml">
-      <configuration name="insertiontests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="recordstests - 2019.07.02 at 11h 47m 04s.xml">
+      <configuration name="recordstests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="insertiontests - 2019.07.02 at 08h 21m 59s.xml">
-      <configuration name="insertiontests" configurationId="ErlangUnitRunConfigurationType" />
+    <history-entry file="recordstests - 2019.07.02 at 11h 48m 36s.xml">
+      <configuration name="recordstests" configurationId="ErlangUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -479,21 +569,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884616" sideWeight="0.49946696" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.49010417" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596153" sideWeight="0.48827294" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278846" sideWeight="0.50692964" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596153" sideWeight="0.5117271" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4903846" sideWeight="0.4875" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3278846" sideWeight="0.49307036" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4903846" sideWeight="0.4875" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278846" sideWeight="0.49093816" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278846" sideWeight="0.4989339" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15618336" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -506,7 +598,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -571,7 +662,9 @@
     <MESSAGE value="Add unit tests with eunit" />
     <MESSAGE value="problem9 solved" />
     <MESSAGE value="Insertion sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insertion sort" />
+    <MESSAGE value="Add insertion sort tests to the Run All configuration" />
+    <MESSAGE value="Records example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Records example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -652,22 +745,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/99-problems/problem9.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem9tests.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/99-problems/problem10tests.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -709,7 +786,6 @@
     <entry file="file://$PROJECT_DIR$/src/sort/sort.erl" />
     <entry file="file://$PROJECT_DIR$/out/production/99-problems-erlang/sort.beam" />
     <entry file="file://$PROJECT_DIR$/src/tests/99-problems/main.erl" />
-    <entry file="file://C:/Program Files/erl7.3/lib/eunit-2.2.13/include/eunit.hrl" />
     <entry file="file://$PROJECT_DIR$/src/99-problems/problem1.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -758,6 +834,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -765,6 +842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,6 +850,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,6 +858,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -786,6 +866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -825,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/test.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/99-problems/problem9.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -844,14 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/sort/mergetests.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -875,7 +941,23 @@
     <entry file="file://$PROJECT_DIR$/src/sort/merge.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gam-git/knikolov/erlang/homework/homework.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -883,15 +965,63 @@
     <entry file="file://$PROJECT_DIR$/src/tests/sort/insertiontests.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/sort/mergetests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/insertion.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/erl7.3/lib/stdlib-2.8/src/erl_expand_records.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="120" column="33" lean-forward="true" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/erl7.3/lib/eunit-2.2.13/include/eunit.hrl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="12" lean-forward="false" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data-structures/records.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data-structures/records.hrl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/data-structures/recordstests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding />
         </state>
       </provider>
